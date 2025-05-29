@@ -133,10 +133,7 @@ export const siteConfig: SiteConfig = {
       saturday: "Sábado: 9h às 13h"
     },
     social: {
-      facebook: "https://facebook.com/westycreative",
-      instagram: "https://instagram.com/westycreative",
-      twitter: "https://twitter.com/westycreative",
-      linkedin: "https://linkedin.com/company/westycreative"
+      instagram: "https://instagram.com/westycreative"
     }
   },
   hero: {
@@ -218,7 +215,7 @@ export const siteConfig: SiteConfig = {
     subtitle: "Profissionais talentosos e apaixonados por criar experiências digitais excepcionais.",
     members: [
       {
-        name: "Ricardo Almeida",
+        name: "Vinicius Moraes",
         position: "CEO & Diretor Criativo",
         image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         social: {
