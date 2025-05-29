@@ -118,7 +118,7 @@ export interface SiteConfig {
 
 export const siteConfig: SiteConfig = {
   name: "Westy Creative",
-  description: "Agência de Design",
+  description: "Agência de Design e Desenvolvimento",
   logo: {
     icon: Palette,
     text: "Westy",
@@ -127,16 +127,16 @@ export const siteConfig: SiteConfig = {
   contact: {
     phone: "+55 11 9876-5432",
     email: "contato@westycreative.com",
-    //address: "Av. Paulista, 1000, São Paulo, SP",
+    address: "Av. Paulista, 1000, São Paulo, SP",
     hours: {
       weekdays: "Segunda a Sexta: 9h às 18h",
       saturday: "Sábado: 9h às 13h"
     },
     social: {
-      //facebook: "https://facebook.com/westycreative",
-      instagram: "https://instagram.com/westycreative"
-      //twitter: "https://twitter.com/westy.creative",
-      //linkedin: "https://linkedin.com/company/westycreative",
+      facebook: "https://facebook.com/westycreative",
+      instagram: "https://instagram.com/westycreative",
+      twitter: "https://twitter.com/westycreative",
+      linkedin: "https://linkedin.com/company/westycreative"
     }
   },
   hero: {
@@ -191,6 +191,16 @@ export const siteConfig: SiteConfig = {
         description: "Construímos identidades visuais memoráveis que comunicam a essência e os valores de sua marca."
       },
       {
+        icon: "Smartphone",
+        title: "Design UI/UX",
+        description: "Projetamos interfaces intuitivas e experiências de usuário que transformam visitantes em clientes."
+      },
+      {
+        icon: "ShoppingBag",
+        title: "E-commerce",
+        description: "Desenvolvemos lojas online otimizadas para conversão e com uma experiência de compra superior."
+      },
+      {
         icon: "BarChart",
         title: "Marketing Digital",
         description: "Estratégias de marketing digital para aumentar sua visibilidade online e gerar mais resultados."
@@ -198,17 +208,17 @@ export const siteConfig: SiteConfig = {
     ]
   },
   stats: [
-    //{ value: 150, label: "Projetos Concluídos" },
-    { value: 2, label: "Anos de Experiência" },
-    //{ value: 35, label: "Prêmios Conquistados" },
-    //{ value: 120, label: "Clientes Satisfeitos" }
+    { value: 150, label: "Projetos Concluídos" },
+    { value: 18, label: "Anos de Experiência" },
+    { value: 35, label: "Prêmios Conquistados" },
+    { value: 120, label: "Clientes Satisfeitos" }
   ],
   team: {
     title: "Conheça Nossa Equipe",
     subtitle: "Profissionais talentosos e apaixonados por criar experiências digitais excepcionais.",
     members: [
       {
-        name: "Vinicius Moraes",
+        name: "Ricardo Almeida",
         position: "CEO & Diretor Criativo",
         image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         social: {
@@ -219,7 +229,7 @@ export const siteConfig: SiteConfig = {
         }
       },
       {
-        name: "Thiago Souza",
+        name: "Amanda Souza",
         position: "Diretora de UX/UI",
         image: "https://images.pexels.com/photos/3776932/pexels-photo-3776932.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         social: {
