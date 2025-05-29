@@ -73,12 +73,12 @@ const ContactPage = () => {
                   <div className="bg-primary-100 text-primary-600 p-3 rounded-lg mr-4">
                     <MapPin size={24} />
                   </div>
-                  <div>
+                  {/*<div>
                     <h3 className="font-semibold text-secondary-900">Localização</h3>
                     <p className="text-secondary-600 mt-1">
                       Av. Paulista, 1000, São Paulo, SP
                     </p>
-                  </div>
+                  </div>*/}
                 </div>
                 
                 <div className="flex items-start">
