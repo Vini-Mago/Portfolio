@@ -68,7 +68,7 @@ const ContactPage = () => {
                 Preencha o formulário ou entre em contato diretamente através dos canais abaixo.
               </p>
               
-              <div className="space-y-6">
+              {/*<div className="space-y-6">
                 <div className="flex items-start">
                   <div className="bg-primary-100 text-primary-600 p-3 rounded-lg mr-4">
                     <MapPin size={24} />
@@ -221,19 +221,6 @@ const ContactPage = () => {
                     <div className="flex items-center">
                       <input 
                         type="checkbox" 
-                        id="development"
-                        value="Desenvolvimento"
-                        className="h-4 w-4 text-primary-600 focus:ring-primary-500 border-secondary-300 rounded"
-                        {...register('services')}
-                      />
-                      <label htmlFor="development" className="ml-2 text-sm text-secondary-700">
-                        Desenvolvimento
-                      </label>
-                    </div>
-                    
-                    <div className="flex items-center">
-                      <input 
-                        type="checkbox" 
                         id="branding"
                         value="Branding"
                         className="h-4 w-4 text-primary-600 focus:ring-primary-500 border-secondary-300 rounded"
@@ -286,31 +273,6 @@ const ContactPage = () => {
         </div>
       </section>
       
-      {/* Map Section */}
-      <section className="py-16 bg-secondary-50">
-        <div className="container">
-          <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">Onde Estamos</h2>
-            <p className="text-secondary-600 max-w-2xl mx-auto">
-              Venha nos visitar em nosso escritório central em São Paulo. Estamos localizados em uma das áreas mais vibrantes da cidade.
-            </p>
-          </div>
-          
-          <div className="bg-white rounded-lg shadow-md overflow-hidden">
-            <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0976521697876!2d-46.65429372534462!3d-23.564516179594365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1688479611387!5m2!1spt-BR!2sbr" 
-              width="100%" 
-              height="450" 
-              style={{ border: 0 }} 
-              allowFullScreen 
-              loading="lazy" 
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Mapa da localização da Westy Creative"
-            />
-          </div>
-        </div>
-      </section>
-      
       {/* FAQ Section */}
       <section className="py-16">
         <div className="container">
@@ -332,19 +294,6 @@ const ContactPage = () => {
               <h3 className="text-lg font-semibold mb-3">Qual é o prazo médio para entrega de um projeto?</h3>
               <p className="text-secondary-600">
                 O prazo varia de acordo com a complexidade do projeto. Websites simples podem levar de 2 a 4 semanas, enquanto projetos mais complexos podem levar de 2 a 4 meses. Sempre definimos prazos realistas no início do projeto.
-              </p>
-            </motion.div>
-            
-            <motion.div 
-              className="bg-white p-6 rounded-lg shadow-md"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.1 }}
-            >
-              <h3 className="text-lg font-semibold mb-3">Como funciona o processo de desenvolvimento?</h3>
-              <p className="text-secondary-600">
-                Nosso processo inclui descoberta, planejamento, design, desenvolvimento, testes e lançamento. Mantemos comunicação constante com o cliente em cada etapa, garantindo que o resultado final atenda às expectativas.
               </p>
             </motion.div>
             
